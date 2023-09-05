@@ -16,7 +16,7 @@ TO ELEVATE YOUR STYLE AND SET NEW TRENDS IN THE FASHION WORLD.</p></div>
         (
           <div className='m-4' key={item.id}>
           
-            <Image className='w-[600px] object-cover h-[600px]  cursor-pointer' src={item.IMAGE}/>
+            <Image alt='error' className='w-[600px] object-cover h-[600px]  cursor-pointer' src={item.IMAGE}/>
          
             <p className='text-white relative bottom-12 left-7 text-lg font-semibold cursor-pointer' >{item.title}</p>
           </div>

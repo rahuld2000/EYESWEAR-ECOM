@@ -15,7 +15,7 @@ BY. WE AIM TO CREATE A MEANINGFUL IMPACT ON SOCIETY BY SUPPORTING CAUSES THAT MA
             (
               <div className='flex-col flex items-center mt-5'  key={item}>
               <div className=' w-[300px] h-[350px] bg-white rounded-md m-2 flex items-center justify-center'>
-              <Image className='w-[200px] object-cover ' src={item}/>
+              <Image alt='error' className='w-[200px] object-cover ' src={item}/>
                
                 </div>
               </div>

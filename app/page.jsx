@@ -16,11 +16,11 @@ export default function Home() {
     <div>
    <div >
    <div className="relative ">
-    <Image className="" src={main2}/>
+    <Image alt="error" className="" src={main2}/>
     </div>
     <h1 className="text-[#F2FF68] text-[27.5rem] -top-24 absolute -z-10 -left-0 font-Antonio font-bold max-md:text-[10rem]">CHICLOBE</h1>
     <div  className="absolute top-0 -z-50"  >  
-    <Image  src={main1}/>
+    <Image alt="error"  src={main1}/>
     </div>
     
    </div>

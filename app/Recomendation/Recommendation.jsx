@@ -16,7 +16,7 @@ CHOICE FOR THOSE WHO SEEK TO MAKE A BOLD STATEMENT UNDER THE SUN.</p></div>
             (
               <div className='flex-col flex items-center'  key={item.id}>
               <div>
-                <Image className='w-[450px] object-cover h-[650px]   cursor-pointer' src={item.IMAGE}/>
+                <Image alt='error' className='w-[450px] object-cover h-[650px]   cursor-pointer' src={item.IMAGE}/>
              
                 <p className='text-white relative bottom-12 left-5 text-lg font-semibold cursor-pointer' >{item.title}</p>
                 </div>

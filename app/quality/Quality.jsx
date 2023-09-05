@@ -18,13 +18,13 @@ else{
   return (
     <div className="w-full min-h-screen flex items-center justify-between mt-7 bg-[#B4A3ED] max-md:flex-col">
       <div className="w-[50%] max-md:w-[100%] ">
-        <Image className="w-[560px]" src={quality} />
+        <Image className="w-[560px]" src={quality} alt="error" />
       </div>
       <div className="w-[50%] min-h-screen space-y-4 p-5 mt-10 max-md:p-0 max-md:w-[100%]">
         <div>
         <div className="flex justify-between items-center">
         <p onClick={handleclick} className="text-5xl font-Antonio font-bold cursor-pointer">  ULTIMATE UV PROTECTION</p>
-        <Image src={star} className="w-28"/>
+        <Image src={star} className="w-28" alt="error"/>
         </div>
          
           <p id="para" className="mt-4 hidden">
@@ -39,7 +39,7 @@ else{
         <div>
         <div className="flex justify-between items-center">
         <p onClick={handleclick} className="text-5xl font-Antonio font-bold cursor-pointer">UNRIVALED QUALITY</p>
-        <Image src={star} className="w-28"/>
+        <Image src={star} className="w-28" alt="error"/>
         </div>
           <p className="text-5xl font-Antonio font-bold"></p>
           <p id="para" className="mt-4 ">
@@ -54,7 +54,7 @@ else{
         <div>
         <div className="flex justify-between items-center">
         <p onClick={handleclick} className="text-5xl font-Antonio font-bold cursor-pointer">TRENDING STYLES</p>
-        <Image src={star} className="w-28"/>
+        <Image src={star} className="w-28" alt="error"/>
         </div>
           <p className="text-5xl font-Antonio font-bold"></p>
           <p>
