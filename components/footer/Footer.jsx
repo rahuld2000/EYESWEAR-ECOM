@@ -7,7 +7,7 @@ function Footer() {
 <div>
   <p className='text-4xl w-[23rem]'>WE WOULD LOVE TO HEAR FROM YOU.</p>
   <div className='flex mt-5'> <input className='p-4 bg-[#212121] w-96' type="text" placeholder='Enter Your Email Address' />
-  <button className='w-24 bg-[#E7FF56]'><i class="ri-arrow-up-line"></i></button></div>
+  <button className='w-24 bg-[#E7FF56]'><i className="ri-arrow-up-line"></i></button></div>
  
 </div>
 <div className='flex flex-col w-96 gap-12 text-2xl'>
